@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Đăng ký CLB</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #36d1dc, #5b86e5);
+        }
+
+        .container {
+            width: 450px;
+            margin: 40px auto;
+            background: #fff;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        label {
+            font-weight: bold;
+            margin-top: 10px;
+            display: block;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+        }
+
+        input:focus, select:focus, textarea:focus {
+            border-color: #5b86e5;
+            box-shadow: 0 0 5px #5b86e5;
+        }
+
+        .gender, .hobby {
+            margin-top: 5px;
+        }
+
+        .gender input,
+        .hobby input {
+            width: auto;
+            margin-right: 5px;
+        }
+
+        button {
+            width: 100%;
+            margin-top: 15px;
+            padding: 12px;
+            border: none;
+            border-radius: 10px;
+            background: #5b86e5;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #3c5ccf;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+    <h2>Form đăng ký CLB</h2>
+
+    <form>
+        <label>Họ và tên</label>
+        <input type="text" required>
+
+        <label>Mã lớp</label>
+        <input type="text" required>
+
+        <label>Email</label>
+        <input type="email" required>
+
+        <label>Giới tính</label>
+        <div class="gender">
+            <input type="radio" name="gioitinh"> Nam
+            <input type="radio" name="gioitinh"> Nữ
+        </div>
+
+        <label>Chọn câu lạc bộ</label>
+        <div class="hobby">
+
+			<input type="checkbox"> Âm nhạc
+			<input type="checkbox"> Bóng Đá
+			<input type="checkbox"> Bóng Chuyền
+			<input type="checkbox"> Cầu Lông
+			
+		</div>
+
+        <label>Sở thích</label>
+        <div class="hobby">
+            <input type="checkbox"> Thể thao
+            <input type="checkbox"> Đọc sách
+            <input type="checkbox"> Nghe nhạc
+			<input type="checkbox"> Du lịch
+        </div>
+
+        <label>Lý do tham gia</label>
+        <textarea rows="4"></textarea>
+
+        <button type="submit">Đăng ký</button>
+		<button type="submit">Thoát</button>
+    </form>
+</div>
+
+</body>
+</html>

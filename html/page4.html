@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Đăng ký CLB</title>
+    <link rel="stylesheet" href="../css/style4.css">
+</head>
+
+<body>
+
+<div class="container">
+    <h2>Form đăng ký CLB</h2>
+
+    <form>
+        <label>Họ và tên</label>
+        <input type="text" required>
+
+        <label>Mã lớp</label>
+        <input type="text" required>
+
+        <label>Email</label>
+        <input type="email" required>
+
+        <label>Giới tính</label>
+        <div class="gender">
+            <label><input type="radio" name="gioitinh"> Nam</label>
+            <label><input type="radio" name="gioitinh"> Nữ</label>
+        </div>
+
+        <label>Chọn câu lạc bộ</label>
+        <div class="group">
+            <label><input type="checkbox"> Âm nhạc</label>
+            <label><input type="checkbox"> Bóng đá</label>
+            <label><input type="checkbox"> Bóng chuyền</label>
+            <label><input type="checkbox"> Cầu lông</label>
+        </div>
+
+        <label>Sở thích</label>
+        <div class="group">
+            <label><input type="checkbox"> Thể thao</label>
+            <label><input type="checkbox"> Đọc sách</label>
+            <label><input type="checkbox"> Nghe nhạc</label>
+            <label><input type="checkbox"> Du lịch</label>
+        </div>
+
+        <label>Lý do tham gia</label>
+        <textarea rows="4"></textarea>
+
+        <div class="btn-group">
+            <button type="submit">Đăng ký</button>
+            <button type="reset">Thoát</button>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>
