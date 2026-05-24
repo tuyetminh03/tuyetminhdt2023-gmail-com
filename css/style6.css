@@ -1,0 +1,72 @@
+/* style6.css */
+
+/* Toàn trang */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fa; /* xám xanh rất nhạt */
+    margin: 0;
+    padding: 0;
+}
+
+/* Form */
+#formBangcc {
+    width: 320px;
+    margin: 60px auto 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    text-align: center;
+}
+
+/* Label */
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: #34495e;
+}
+
+/* Input số */
+#txtSo {
+    width: 80%;
+    padding: 8px;
+    border: 1px solid #dcdde1;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    outline: none;
+    transition: 0.3s;
+}
+
+#txtSo:focus {
+    border-color: #74b9ff;
+    box-shadow: 0 0 5px rgba(116, 185, 255, 0.4);
+}
+
+/* Nút */
+#btnIn {
+    padding: 8px 15px;
+    background-color: #74b9ff; /* xanh pastel */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#btnIn:hover {
+    background-color: #0984e3;
+}
+
+/* Kết quả */
+#kq {
+    width: 320px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    color: #2d3436;
+    line-height: 1.8;
+    text-align: center;
+}
